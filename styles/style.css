@@ -1,0 +1,45 @@
+/* common shared style  */
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+    color: white ;
+    background-color: #FD6E0A;
+    font-size:20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+    /* nav related style  */
+
+
+
+.nav-title{
+    color: #FD6E0A;
+    /* font-size: 45px; */
+    font-weight: 800;
+
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+nav  a{
+    text-decoration: none;
+    color:#181818 ;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    margin-right: 50px;
+    list-style: none;
+}
