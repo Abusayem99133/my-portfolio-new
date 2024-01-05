@@ -29,6 +29,7 @@ nav{
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav  a{
     text-decoration: none;
@@ -42,4 +43,18 @@ nav > ul{
 nav li{
     margin-right: 50px;
     list-style: none;
+}
+/* header related style  */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 15px;
+    align-items: center;
+}
+.banner .portfolio-pic{
+    width: 500px;
+    /* height: 600px; */
 }
